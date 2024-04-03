@@ -504,8 +504,9 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
     .section-title__title {
-        font-size: 35px;
-        line-height: 49px;
+        font-size:20px;
+        line-height: 40px;
+        padding-left: 7px;
     }
 
     .welcome-one__top-right {
@@ -539,6 +540,14 @@
         display: none;
     }
 
+    .welcome-one__find-solutions-text a {
+        margin: 18px;
+    }
+
+    .section-title__title1 {
+        line-height: 40px;
+    }
+
     .work-together__img-2 {
         display: none;
     }
@@ -560,6 +569,22 @@
         padding: 120px 0 127px;
     }
 
+    .section-title__title2 {
+        font-size: 33px;
+    }
+
+    .corporate-title__title {
+        font-size: 30px;
+    }
+
+    .service-details__content {
+        margin: 10px;
+    }
+
+    .service-details__title {
+        font-size: 19px;
+    }
+     
     .case-one__content {
         padding: 30px 20px 31px;
     }
@@ -620,7 +645,7 @@
     }
 
     .our-mission__title {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 54px;
         margin-bottom: 46px;
     }
@@ -646,7 +671,8 @@
     }
 
     .trusted-one__content {
-        margin-bottom: 49px;
+        margin-bottom: 40px;
+        font-size: 30px;
     }
 
     .trusted-one {
@@ -1257,10 +1283,13 @@
     }
 
     .main-slider h2 {
-        font-size: 47px;
+        font-size: 37px;
             line-height: 50px;
         margin-bottom: 38px;
+        padding-left: 10px;
     }
+
+   
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 .thm-btn-call {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     position: relative;

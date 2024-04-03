@@ -307,7 +307,7 @@
       autoHeight: false,
       autoplay: true,
       dots: true,
-      autoplayTimeout: 10000,
+      autoplayTimeout: 3000,
       navText: [
         '<span class="icon-left-arrow"></span>',
         '<span class="icon-right-arrow"></span>'

@@ -43,6 +43,10 @@
     --color-title:rgb(31, 24, 65);
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 .row {
     --bs-gutter-x: 30px;
 }
@@ -225,6 +229,8 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 
+
+
 .thm-btn-2:hover {
     color: var(--global-white);
     background-color: var(--color-yellow);
@@ -352,6 +358,32 @@ position: relative;
 .thm-btn:hover::after {
     width: 50%;
 }
+
+/*blink btn*/
+#blinking-btn {
+    background-color: var(--color-yellow);
+    color: black;
+    font-size: 12;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    animation: blink-animation 1s infinite alternate;
+  }
+  
+  @keyframes blink-animation {
+    0% {
+      background-color: var(--global-white);
+    }
+    50% {
+      background-color: var(--global-white);
+    }
+    100% {
+      background-color: var(--color-yellow);
+    }
+  }
+
+  
 
 .blog-pagination {
     display: flex;
@@ -659,7 +691,7 @@ position: relative;
 }
 
 .main-menu-wrapper__logo img {
-    width: 6rem;
+    width: 10rem;
 }
 
 .main-menu-wrapper__logo:before {
@@ -1009,7 +1041,8 @@ position: relative;
 }
 
 .main-menu .mobile-nav__toggler:hover {
-    color: var(--oslim-base);
+    color: var(--color-yellow);
+    
 }
 
 @media (min-width: 1200px) {
@@ -1209,6 +1242,18 @@ position: relative;
 .main-menu-two-wrapper__inner {
     position: relative;
     display: block;
+}
+
+.generalinsurance section {
+    /* margin-top: 40px; */
+    padding-top: 20px;
+    scroll-margin-top: 70px;
+}
+
+.lifeinsurance section {
+    /* margin-top: 40px; */
+    padding-top: 20px;
+    scroll-margin-top: 70px;
 }
 
 .main-menu-two-wrapper__left {
@@ -1617,7 +1662,7 @@ position: relative;
 .mobile-nav__content .main-menu__list li a button {
     width: 30px;
     height: 30px;
-    background-color: var(--icon-arrows);
+    background-color: var(--color-yellow);
     border: none;
     outline: none;
     color: #fff;
@@ -1713,7 +1758,7 @@ position: relative;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: var(--icon-arrows);
+    background-color: var(--color-yellow);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3390,7 +3435,7 @@ position: relative;
 }
 
 .free-consultation__contact-number:hover {
-    color: var(--icon-arrows);
+    color: var(--color-yellow);
 }
 
 .free-consultation__contact-email {
@@ -3404,6 +3449,20 @@ position: relative;
 .free-consultation__contact-email:hover {
     color: var(--oslim-white);
 }
+
+.tabler--cross {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M10 21h4v-9h5V8h-5V3h-4v5H5v4h5z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
 
 /*--------------------------------------------------------------
 # Our Mission
@@ -5115,6 +5174,12 @@ position: relative;
 #Risk-Assessment {
     height: 20rem;
 }
+
+#Risk-Assessment-2 {
+    height: 13rem;
+}
+
+main section
 
 .services-one__single:hover .services-one__img img {
     transform: scale(1.1) rotate(2deg);
