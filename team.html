@@ -269,6 +269,31 @@
             <span class="section-title__tagline">The Team</span>
           </div>
           <div class="row">
+            <!-- Managing Director with Modal Trigger -->
+            <div
+              class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay="600ms"
+            >
+              <div class="team-one__single">
+                <div class="team-one__img">
+                  <img src="assets/images/backgrounds/MD.jpg" alt="Collins Oppong Gyan" />
+                  <div class="team-one__content">
+                    <h3 class="team-one__name">Collins Oppong Gyan</h3>
+                    <p class="team-one__title">Managing Director</p>
+                    <button
+                      type="button"
+                      class="btn btn-warning mt-2 text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#mdProfileModal"
+                      
+                    >
+                      Executive Profile
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div
               class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
               data-wow-delay="200ms"
@@ -359,6 +384,54 @@
         </div>
       </section>
       <!--Team Page End-->
+
+      <!-- Modal -->
+<div
+  class="modal fade"
+  id="mdProfileModal"
+  tabindex="-1"
+  aria-labelledby="mdProfileModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mdProfileModalLabel">
+          Executive Profile - Collins Oppong Gyan
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Position:</strong> Managing Director, Surge Insurance Brokers Ltd.</p>
+        <p><strong>Qualifications:</strong> Chartered Insurance Practitioner (ACIIG), MBA (Marketing)</p>
+        <p>
+          Mr. Collins Oppong Gyan, a Chartered Insurance Practitioner (ACIIG) and holder of an MBA in Marketing, brings over a decade of experience in the insurance industry to his role as Managing Director of Surge Insurance Brokers Ltd. His professional journey reflects a strong commitment to excellence, client-focused solutions, and industry innovation.
+        </p>
+        <p>
+          Prior to his appointment at Surge, Collins served as the Managing Director of OAK Insurance Brokers Limited from November 2023 to April 2025, where he led a transformative agenda focused on operational efficiency, team development, and strategic growth. Before that, he spent nine impactful years at Metrix Brokerage Limited, rising through various leadership roles and eventually serving as General Manager.
+        </p>
+        <p>
+          Collins is supported by a skilled team of professionals and is known for his leadership, integrity, and ability to drive performance through collaboration. At Surge Insurance Brokers, he is focused on building a dynamic and innovative brokerage that delivers tailored, reliable, and results-driven insurance solutions for clients across industries.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-danger"
+          data-bs-dismiss="modal"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       <!--CTA One Start-->
       <section class="cta-one">
