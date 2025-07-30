@@ -246,10 +246,19 @@
               <!--Team One Single-->
               <div class="team-one__single">
                 <div class="team-one__img">
-                  <img src="assets/images/backgrounds/avatar.jpg" alt="image" />
+                  <img src="assets/images/backgrounds/Fred.jpg" alt="image" />
                   <div class="team-one__content">
                     <h3 class="team-one__name">Frederick Osei Amoako</h3>
                     <p class="team-one__title">Board Member</p>
+                       <button
+                      type="button"
+                      class="btn btn-warning mt-2 text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#bmfProfileModal"
+                      
+                    >
+                      Executive Profile
+                    </button>
                   </div>
                 </div>
               </div>
@@ -601,7 +610,52 @@
   </div>
 </div>
 
-
+<!--Modal for BMF-->
+<div
+  class="modal fade"
+  id="bmfProfileModal"
+  tabindex="-1"
+  aria-labelledby="mdProfileModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class=" text-center" id="mdProfileModalLabel" style="font-weight: bold;">
+          Executive Profile - Frederick Osei Amoako
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Position:</strong> Board Member – Surge Insurance Brokers Ltd.</p>
+        <p><strong>Qualifications:</strong>BSc Operations & Project Management, M.Sc. Engineering and Management </p>
+        <p>
+          Frederick Osei Amoako is an independent business and engineering consultant and has worked in both corporate and independent environment. He is currently the Managing Director for Corporate Intelligence Bureau a security company specializing in corporate security solutions, bullion services, vehicle tracking, surveillance systems and the Managing Partner for Peddy Investment Limited (a firm with diversified operations in building, civil and electrical engineering), a director for surge Insurance brokers and Climbers Resource Limited. These accolades have secured him many contracts and awards as an astute business man.
+        </p>
+        <p>
+         Within twenty-five (25) years, he has gained substantial experience in human resourcing, operations, project management, security and conflict resolution, strategic management in both security services and engineering.
+        </p>
+        <p>
+          Fred has been the brain behind many landmark development projects in Accra and across the country. He is currently pursuing a PHD in project management at the Kwame Nkrumah University of Science and Technology (KNUST). He graduated from Coventry University with M.Sc. Engineering and Management, BSc Operations & Project Management from GIMPA and HND in Building Technology from Accra Polytechnic.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-danger"
+          data-bs-dismiss="modal"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
       <!--CTA One Start-->
       <section class="cta-one">
         <div class="container">
